@@ -1,0 +1,67 @@
+@media only screen and (max-width: 451px){
+	.align-self-center.trainr-pic {
+		width: 100%;
+		max-width: 100%;
+	}
+	.trainr-hed-algn{
+		margin-left: 0px;
+		width:100%;
+	}
+}
+@media only screen and (max-width: 480px){
+	.name-hed-top{
+		margin-top:20px;
+	}
+	.dielList .recp-ul li {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 10%;
+		flex: 0 0 100%;
+		max-width: 100%;
+	}
+}
+@media screen and  (min-width: 481px) and (max-width: 767px){
+	.dielList .recp-ul li {
+		-webkit-box-flex: 0;
+		-ms-flex: 0 0 50%;
+		flex: 0 0 50%;
+		max-width: 50%;
+	}
+}
+@media screen and  (min-width: 768px) and (max-width: 1199px){
+	.name-hed-top{
+		margin-top:20px;
+	}
+}
+@media only screen and (max-width: 640px){
+	.halfway-fab {
+	    text-align: center;
+	    margin-top: 70px;
+	}
+	.TrainerInfo {
+	    margin-top: 0;
+	}
+	.halfway-fab span {
+	    margin: 0;
+	}
+	.top-header-thumb img {
+		min-height: 175px;
+	}
+	
+	.top-header-author img {
+		width: 90px;
+		height: 90px;
+	}	
+}
+@media only screen and (max-width: 767px){
+	.top-header-author {
+		position: absolute;
+		left: 28%;
+		bottom: -9px;
+	}
+	.top-header-author label.tranr-pcture {
+		color: #fff;
+	}
+	.main-menu.menu-light .navbar-header .brand-logo-fav {
+		display: none;
+	}
+}

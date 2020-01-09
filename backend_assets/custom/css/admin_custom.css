@@ -1,0 +1,277 @@
+.tlr_loader {
+ background-color: rgba(255,255,255,0.5);
+ background-image: url("../../../backend_assets/img/loader/loader.gif");
+ background-position: center center;
+ background-repeat: no-repeat;
+ background-size: 50px 50px;
+ height: 100%;
+ left: 0;
+ position: fixed;
+ top: 0;
+ width: 100%;
+ z-index: 3000;
+}
+
+label.error {
+    margin-top: 2px;
+    color: red;
+    margin-left: 15px;
+}
+
+
+.pagination {
+	 float: right;
+   margin-right:20px;
+}
+.pagination a {
+  color: black;
+  float: left;
+  padding: 8px 16px;
+  text-decoration: none;
+
+}
+
+.pagination a.active1 {
+  background-color: #45a3db;  
+}
+.active1 {
+ background-color: #45a3db;
+ color: #fff;
+}
+
+.pagination a:hover:not(.active1) {background-color: #ddd;}
+
+.avatar.adminProfile img {
+    float: left;
+}
+.adminTitle {
+    font-weight: 300;
+    display: block;
+    margin-top: 6px;
+    font-size: 13px;
+}
+.adminName {
+    margin-top: 10px; 
+    display: inline-block;
+}
+/*--width profile dropdown--*/
+.dropdown .dropdown-menu.cstm-drpdwn-menu {
+    min-width: 14rem;
+}
+.content-wrapper-before h2 {
+    float: left;
+    font-weight: 600;
+    color: #fff;
+    letter-spacing: 0.04em;
+    font-size: 20px;
+}
+.ml-2{
+  margin-left:2.2rem !important;
+}
+/*div#rList .content-wrapper {
+    height: auto;
+    max-height: 300px;
+}*/
+.bootbox-body {
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.navbar-semi-light {
+    background: #ffffff;
+}
+.main-menu.menu-fixed {
+    z-index: 1040;
+}
+
+
+.custom-select {
+    border: 1px solid #cacfe7;
+    color: #6b6f80;
+}
+.mrb-5{
+    display: inline-block;
+    width: 400px;
+    white-space: nowrap;
+    overflow: hidden !important;
+    text-overflow: ellipsis; 
+}
+#records{
+    /*position: relative;
+    top: 58px;*/
+    font-size: x-large;
+    /*left: 10px;*/
+}
+.preview_img{
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.preview_img span{
+  position: absolute;
+  top: -8px;
+  right: -6px;
+  width: 22px;
+  height: 22px;
+  color: #fff;
+  line-height: 24px;
+  text-align: center;
+  font-size: 12px;
+  cursor: pointer;
+  background: #1d1d1d;
+  border-radius: 50%;
+}
+.preview_img img{
+  width: 100%;
+  height: 100%;
+
+}
+.icon-crd{
+  position: relative;
+}
+.icon-crd a.close-img-icon{
+  position: absolute;
+  right: 0px;
+  z-index: 1;
+  top: -8px;
+  width: 25px;
+  height: 25px;
+  background-color: #fa626b;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 27px;
+  color: #fff;
+  display: inline-block;
+}
+.image{
+  width: 100%;
+  height: 236px;
+}
+.crdBody{
+  width: 100%;
+  max-width: 550px;
+}
+.rec-fix{
+      text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 250px;
+}
+.mt-0{
+      text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    max-width: 250px;
+}
+
+.SerachSec{
+  width: 100%;
+  float: right;
+  margin-top: 15px;
+  max-width: 320px;
+}
+.pr-6 {
+    padding-right: 5rem!important;
+}
+#banner_lable{
+  margin-bottom: 0px; 
+}
+#logo_pic{
+  margin-left: 24px;
+  margin-top: 23px;
+}
+
+.MultiSelect .select2.select2-container.select2-container--default{
+  width: 100%!important;
+}
+.MultiSelect .select2-container--default .select2-selection--multiple{
+  border-radius: 1.5rem!important;
+}
+.MultiSelect .select2-container--default .select2-selection--multiple .select2-selection__rendered{
+  padding: 0px 10px!important;
+}
+.vedio-slde .VideoHeight{
+  height: 380px;
+}
+.EditSec{
+  width: 100%;
+  display: flex;
+}
+.EditSec .EditLeft{
+  width: 88%;
+}
+.EditSec .EditRight{
+  width: 12%;
+  text-align: right;
+}
+@media only screen and (max-width: 767px){
+  .card .EditSec ul li a {
+    padding-right: 6px;
+  }
+}
+.p-30{
+  padding: 30px;
+}
+
+.videoResize-sm {
+    min-height: 110px;
+    position: relative;
+}
+.videoResize-md {
+    min-height: 210px;
+    position: relative;
+}
+.videoResize-sm img, .videoResize-md img {
+    width: 100%;
+    height: 100% !important;
+    position: absolute !important;
+    top: 0;
+    right: 0;
+    object-fit: cover !important;
+}
+.Inpfnt .form-control{
+font-size: 13px;
+}
+/*--29 may--*/
+.btn_clse {
+    color: #fa626b;
+    font-weight: 800;
+    margin: 0px 5px;
+    font-size: 15px;
+}
+/*--trello issues 14 june--*/
+.media.media_pddng_chnge{
+  padding: 1.5rem 1.5rem 1.5rem 0 !important;
+}
+.la.la-thumbs-o-up {
+  font-size: 18px !important;
+}
+textarea {
+  border-radius: 0.1rem !important;
+}
+@media (max-width:480px){
+/*  .nav-item {
+      width: 50%;
+  }*/
+}
+.bodySection .mrgn-tp-crd {
+    margin-top: 0 !important;
+}
+.bodySection {
+    margin-top: 40px !important;
+}
+
+.ps-scrollbar-y-rail {
+    /*background: #fff !important;*/
+    opacity: 1 !important;
+    z-index: 999 !important;
+}
+.ps-scrollbar-y {
+    background: #ababab !important;
+    width: 8px !important;
+}
+.vedio-slde video {
+    height: 300px;
+    outline: none;
+    border: 1px solid #ddd;
+}

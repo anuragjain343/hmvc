@@ -1,0 +1,589 @@
+@media only screen and (max-width: 575px){
+    .media.media-res {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: start;
+        -ms-flex-align: start;
+        align-items: flex-start;
+    }
+    .videoPlay.cstm-vedio-block.vedio-play-icon span{
+        font-size: 15px;
+    }
+    .videoPlay span{
+        width: 30px;
+        height: 30px;
+        line-height: 33px;
+    }
+}
+@media only screen and (max-width: 1199px){
+    .rs-slider .slide-content .slider-title {
+        font-size: 45px;
+    }
+}
+@media only screen and (min-width: 1100px) and (max-width: 1350px){
+    .Header .navbar-nav.mainMenu li a {
+    font-size: 12px;
+    padding: 10px 7px;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .navbar-brand img {
+        width: 100%;
+        max-width: 170px;
+    }
+    .Header .navbar-nav.mainMenu li a {
+        font-size: 12px;
+        padding: 10px 7px;
+    }
+    a.navbar-brand img {
+        max-width: 140px;
+        padding: 0 10px 10px;
+    }
+    .dielList .recp-ul li {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+}
+@media only screen and (min-width: 641px) and (max-width: 991px){
+    .wdth-blck-prt {
+        width: 33.33%;
+    }
+    .rs-slider .slide-content.trainr-slide {
+        margin-top: -134px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .video-content h3 {
+        font-size: 15px;
+    }
+    .table.forum-tble td, .table.forum-tble th {
+        padding: .75rem;
+        vertical-align: top;
+        width: 100%;
+        display: block;
+    }
+    .sml-wdth-brdr.lst{
+      border:none;
+    }
+    .thead-dark{
+        display:none;
+    }
+    .img-tble img {
+        width: 40px;
+        height: 40px;
+    }
+    .table-striped.forum-tble tbody tr:nth-of-type(2n+1) {
+        background-color: #fff;
+    }
+    .sml-wdth-none{
+        display:none !important;
+    }
+    .sml-wdth-block{
+        display:inline-block;
+    }
+    .img-tble.sml-wdth-lft{
+        float:left;
+    }
+    .lgt-wgt-txt {
+        line-height: 40px;
+    }
+    .table td, .table th {
+         border-top: none!important; 
+    }
+    .sml-wdth-brdr {
+        border-bottom: 1px solid #dee2e6;
+    }
+    .table.forum-tble td, .table.forum-tble th {
+        padding: .75rem 0rem;
+        display:flow-root;
+    }
+    .img-tble.sml-wdth-lft{
+        margin-right: 0.5rem !important;
+    }
+    .table.forum-tble td.sml-wdth-pad{
+        padding:0.75rem 0 0 !important;
+    }
+    /*--table forum list--*/
+    a.navbar-brand img {
+        width: 100%;
+        max-width: 150px;
+    }
+    .Header .navbar-nav.mainMenu li a {
+        font-size: 14px;
+    }
+    .contactUs {
+        display: block;
+    }
+    .contactLeft {
+        width: 100%;
+    }
+    .contactRight {
+        width: 100%;
+    }
+    .dielList .recp-ul li {
+        -ms-flex: 0 0 25%;
+        flex: 0 0 25%;
+        max-width: 25%;
+    }
+    .trainerPrBlock .prInfo {
+        padding: 20px 15px 20px 15px;
+        text-align: left;
+        display: inline-block;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .trainerPrBlock .prImg {
+        float: left;
+        margin-right: 15px;
+    }
+    .trainerPrBlock .prImg img {
+        max-width: 100px;
+    }
+}
+@media only screen and (min-width: 992px){
+    .dropdown:hover .dropdown-menu {
+        max-height: 345px;
+        opacity: 1;
+    }
+    .dropdown .dropdown-menu {
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        -ms-transition: all 0.3s;
+        -o-transition: all 0.3s;
+        transition: all 0.3s;
+        max-height: 0;
+        display: block;
+        overflow: hidden;
+        opacity: 0;
+        min-width: 160px;
+        white-space: nowrap;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+    .pricing-table {
+        min-height: 900px;
+    }
+}
+@media only screen and (max-width: 991px){
+    #home-slider.owl-carousel.sldr-trainr-carousel .item {
+        height: auto;
+    }
+        .mobileSubmenu {
+        position: absolute;
+        right: 0;
+        top: 0px;
+        display: block;
+    }
+    .mobileDrop{
+        display: none;
+    }
+    .navbar-collapse {
+        margin-top: 31px;
+    }
+    .navbar-nav.ml-auto.mainMenu li a {
+        border-bottom: 1px solid #464646;
+    }
+    .Header .navbar-nav.mainMenu li a {
+        font-size: 15px !important;
+    }
+    .dropdown-menu.subMenu {
+        background: #292929;
+        border: none;
+        margin-top: 0;
+    }
+    .dropdown-menu.subMenu li a:hover, .dropdown-menu.subMenu li a:focus {
+        background: #292929;
+    }
+    .dropdown-menu.subMenu li a:hover {
+        padding-left: 10px;
+    }
+    .Header {
+        margin-top: 42px;
+    }
+    .articleBlock {
+        display: block;
+        text-align: center;
+    }
+    .articleLeft {
+        padding-right: 0;
+    }
+    .fr-left.mt-50 {
+        margin-top: 0;
+    }
+    .pricing-table {
+        min-height: 800px;
+        margin-bottom: 20px;
+    }
+    form.find-cand {
+        width: 100%;
+    }
+    .myTrainerBlock {
+        display: block;
+        text-align: center;
+    }
+    .myTrainerBlock img {
+        max-width: 130px;
+        margin-bottom: 15px;
+    }
+    .menuTab a {
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+    .recepie-media p {
+        font-size: 14px;
+        text-overflow: ellipsis;
+        overflow: hidden;
+        white-space: nowrap;
+        max-width: 145px;
+    }
+    .recp-ul li {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 20%;
+        flex: 0 0 20%;
+        max-width: 20%;
+    }
+}
+@media only screen and (max-width: 767px){
+    .forumSearchSec.trainr-info-bar-sec {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    .owl-carousel.trainr-info-slider .owl-item img {
+        position: relative;
+        object-fit: cover;
+        height: 100%;
+    }
+    .box_icon.para-box p {
+        width: 100%;
+    }
+    .sec-pad-t-50{padding-top:30px;}
+    .sec-pad-t-60{padding-top:40px;}
+    .sec-pad-t-70{padding-top:50px;}
+    .sec-pad-b-50{padding-bottom:30px;}
+    .sec-pad-b-60{padding-bottom:40px;}
+    .sec-pad-b-70{padding-bottom:50px;}
+    .sec-pad-50{padding:30px 0;}
+    .sec-pad-60{padding:40px 0;}
+    .sec-pad-70{padding:50px 0;}
+    .sec-pad-80{padding:60px 0;}
+    .rs-slider .slide-content .slider-title {
+        font-size: 30px;
+        margin-bottom: 24px;
+    }
+    .rs-slider .slide-content .transfarent-btn, .rs-slider .slide-content .primary-btn {
+        height: 44px;
+        line-height: 40px;
+        padding: 0 30px;
+    }
+    #home-slider.owl-carousel .item {
+        height: 100vh;
+        position: relative;
+    }
+    .owl-carousel .owl-item img {
+        position: absolute;
+        object-fit: cover;
+        height: 100%;
+    }
+    .videoBlockHome.video-slider-box .owl-carousel .owl-item img {
+        position: relative;
+    }
+    .owl-carousel.sldr-trainr-carousel .owl-item img {
+        position: static;
+        object-fit: cover;
+        height: auto;
+    }
+    .owl-carousel.imgSlider .owl-item img {
+        position: relative !important;
+    }
+    .rs-slider .owl-nav .owl-prev i, .rs-slider .owl-nav .owl-next i {
+        width: 40px;
+        height: 40px;
+        line-height: 40px;
+    }
+    .rs-slider .owl-carousel:hover .owl-nav .owl-prev {
+        left: 20px;
+    }
+    .rs-slider .owl-carousel:hover .owl-nav .owl-next {
+        right: 20px;
+    }
+    .section-title h2 {
+        font-size: 28px;
+        line-height: 40px;
+    }
+    .section-title {
+        margin-bottom: 25px;
+    }
+
+    .about-sec {
+        padding-bottom: 0;
+    }
+    .table-buy p {
+        font-size: 24px;
+    }
+    .dollarPrice {
+        font-size: 30px;
+    }
+    .dollarPrice span {
+        font-size: 18px;
+    }
+    .pricing-table {
+        min-height: auto !important;
+        margin-bottom: 20px;
+    }
+    .paymentRight {
+        width: 100%;
+    }
+    .paymentLeft {
+        width: 100%;
+    }
+    .paymentBlock {
+        display: block;
+    }
+    .videoInfo h2, .trainerinfo h2 {
+        font-size: 16px;
+        line-height: 22px;
+        height: 44px;
+        margin-bottom: 0;
+    }
+    .trainerinfo h2 {
+        height: initial;
+    }
+    #exercise .videoInfo h2 {
+        font-size: 16px;
+        height: 44px;
+        line-height: 22px;
+    }
+    .videoBlock {
+        margin-bottom: 15px;
+    }
+    .prInfo {
+        margin-bottom: 30px;
+    }
+    .recp-ul li {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 33.33%;
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+    .dielList .recp-ul li {
+        -ms-flex: 0 0 33.33%;
+        flex: 0 0 33.33%;
+        max-width: 33.33%;
+    }
+}
+@media only screen and (max-width: 640px){
+    .upr-heder-sec p {
+        margin-bottom: 0px;
+    }
+    .rs-slider .slide-content.trainr-slide {
+        margin-top: 0px;
+    }
+    .wdth-blck-prt {
+        width: 50%;
+    }
+    .forumSearchSec {
+        padding-bottom: 40px;
+        padding-top: 40px;
+    }
+    .box_icon h2 {
+        font-size: 26px;
+    }
+    .box_icon p {
+        margin-bottom: 20px;
+    }
+    .postedMeta-1 img {
+        max-width: 45px;
+        margin-right: 5px;
+    }
+    .frlistItem-1 {
+        padding: 15px 15px;
+    }
+    .postTime {
+        font-size: 14px;
+    }
+    .videoList .row, .trainerList .row{
+        margin-right: -5px;
+        margin-left: -5px;
+    }
+    .videoList .col-6, .trainerList .col-6{
+        padding-right: 5px;
+        padding-left: 5px;
+    }
+    body.modal-open{
+      padding-right: 0 !important;
+    }
+    .modal-open .Header .navbar {
+        margin-right: 0;
+    }
+    .contactForm {
+        padding: 25px;
+    }
+}
+@media only screen and (max-width: 575px){
+    .rs-slider .slide-content .slider-title {
+        font-size: 24px;
+    }
+    .articleCnt p {
+        font-size: 16px;
+    }
+    .copyCnt .float-left, .copyCnt .float-right {
+        display: block;
+        float: none !important;
+        text-align: center;
+    }
+    .trainerinfo h2 {
+        font-size: 18px;
+    }
+
+    .forumAnswerBlock .frlistItem img {
+        max-width: 45px;
+    }
+    .frlistItemMedia .media{
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+    .media {
+        display: inline-block;
+    }
+    .frlistItem img {
+        max-width: 60px;
+        margin-bottom: 15px;
+    }
+    .forumInfo a.forumTitle {
+        font-size: 18px;
+        line-height: 26px;
+    }
+    .forumSearchInput {
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .prdct-value-name h2 {
+        font-size: 20px;
+    }
+    .list-title {
+        font-size: 18px;
+    }
+
+    .category-des .next-slide, .category-des .prev-slide {
+        width: 34px;
+        height: 34px;
+        top: 0px;
+        line-height: 34px;
+        border-radius: 3px;
+    }
+}
+@media only screen and (max-width: 480px){
+    .recepie-list .media.media-res{
+        display:inline-block !important;
+        text-align:center;
+    }
+    .rs-slider .slide-content .slider-title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+    .rs-slider .slide-content .transfarent-btn, .rs-slider .slide-content .primary-btn {
+        height: 36px;
+        line-height: 32px;
+        padding: 0 16px;
+        font-size: 14px;
+    }
+    .section-title h2 {
+        font-size: 24px;
+        line-height: 35px;
+    }
+    .section-title h4 {
+        font-size: 16px;
+    }
+    .about-details h2 {
+        font-size: 18px;
+    }
+    .paraText {
+        font-size: 14px;
+    }
+    .panel.panel-default.credit-card-box {
+        padding: 15px;
+    }
+    .credit-card-box .display-td {
+        display: table;
+        width: 100%;
+        text-align: center;
+    }
+    .backPlan {
+        top: 0;
+    }
+    .paymentLeft {
+        padding-bottom: 0;
+        padding-top: 51px;
+    }
+    .textLink {
+        margin-top: 10px;
+    }
+    .forumicon .float-left{
+        width: 100%;
+    }
+    .forumicon .float-right {
+        display: block;
+        width: 100%;
+        text-align: right;
+    }
+    .recp-ul li {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .dielList .recp-ul li {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .forumList-1 .frlistItem-1 {
+        padding-bottom: 50px;
+    }
+    .readBtn {
+        bottom: -30px !important;
+    }
+    .menuTab ul li {
+        display: inline-block;
+        width: 50%;
+    }
+    .menuTab a {
+        font-size: 14px;
+        text-align: center;
+        border: 1px solid #e8e8e8 !important;
+    }
+    .trainerPrBlock .prImg {
+        float: none;
+        margin-right: 0;
+    }
+    .trainerPrBlock .prInfo {
+        text-align: center;
+    }
+    .trainerPrBlock .prInfo h2 {
+        font-size: 22px;
+        margin-top: 10px;
+    }
+}
+@media only screen and (max-width: 359px){
+    .recp-ul li, .dielList .recp-ul li {
+        -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .col-6 {
+        -ms-flex: 0 0 100%;
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1130px){
+    .rs-slider .slide-content.trainr-slide {
+        margin-top: -370px;
+    }
+}

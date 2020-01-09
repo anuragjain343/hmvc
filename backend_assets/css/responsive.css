@@ -1,0 +1,167 @@
+@media only screen and (max-width: 480px){
+	.btn-ride {
+		margin-top: 10px;
+	}
+	.sec-row {
+		padding-left: 0px;
+	}
+	.fltr-btn {
+		 margin-left: 0px; 
+	}
+}
+@media only screen and (min-width: 992px) and (max-width: 1135px){
+		.ad-field-block input {
+		width: 88%;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.menu-collapsed .sidenav, 
+	.menu-collapsed .sidenav2,
+	.menu-collapsed .sidenav3{
+		width: calc(100% - 60px)!important;	
+	}	
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px){
+	.menu-collapsed .sidenav,
+	.menu-collapsed .sidenav2,
+	.menu-collapsed .sidenav3{
+		width: calc(100% - 420px)!important;
+	}
+}
+@media only screen and (max-width: 575px){
+	.lft-sec-slidr,
+	.rgt-sec-slider{
+		margin: 20px;
+	}
+	.mrgn-edit-top{
+		margin-top:10px;
+	}
+	.respnsve-top-mrgn{
+		margin-top:40px !important;
+	}
+	.res-top{
+		margin-top:25px;
+	}
+}
+@media only screen and (max-width: 400px){
+	.respn-btn{
+		width: 100%;
+	}
+}
+@media only screen and (max-width: 575px){
+	.mrgn-rs-crd{
+		margin-top: 40px;
+	}
+	.rs_mt-10{
+		margin-top: 10px;
+	}
+}
+@media only screen and (max-width: 767px){
+	.sidenav,
+	.sidenav1,
+	.sidenav2,
+	.sidenav3{
+		z-index: 1052;
+		padding-top: 0px;
+	}
+	.pad-rgt-0{
+		padding-right:0px !important;
+	}
+	.card ul li a{
+		padding-right: 30px;
+	}
+	.mrgn-tp-crd{
+		margin-top:20px;
+	}
+}
+@media only screen and (max-width: 420px){
+	.ad-field-block input {
+		width: 80%;
+	}
+}
+@media only screen and (max-width: 399px){
+	.media.media-res.recepie-media{
+		display:block;
+	}
+	.recepie-list {
+		text-align: center;
+	}
+}
+@media only screen and (min-width: 768px) and (max-width: 860px){
+	.media.recepie-media img {
+		width: 80px;
+		height: 80px;
+	}
+	.recepie-media img {
+		max-width: 80px;
+	}
+}
+@media only screen and (max-width: 767px){
+	.content-wrapper-before.Hedtxt h2.ml-2{
+	    margin-left: 1.1rem !important;	
+	}
+	.content-wrapper-before.Hedtxt .btn.mr-2{
+		margin-right: 1.1rem !important;
+	}
+}
+@media only screen and (max-width: 600px){
+	.content-wrapper-before.Hedtxt h2{
+		float:inherit;
+		font-size: 14px;
+	}
+	.card.mrgn-tp-crd{
+		margin-top: 40px;
+	}
+}
+
+.videoSec{
+	width: 100%;
+	max-width: 320px;
+}
+/*--12 june issue fix--*/
+/*--forum--*/
+@media only screen and (max-width: 897px){
+	.min-hgt-tble {
+    		min-height: 98px;
+	}
+}
+/*--recepie--*/
+@media only screen and (min-width: 768px) and (max-width: 991px){
+	.recepie-list h2{
+		max-width: 140px;
+	}
+	.recepie-list p{
+		max-width: 120px;
+	}
+}
+@media only screen and (min-width: 395px) and (max-width: 450px){
+	.recepie-list h2{
+		max-width: 128px !important;
+	}
+	.recepie-list p{
+		max-width: 119px !important;
+	}
+}
+
+@media only screen and (min-width: 991px) and (max-width: 1220px){
+	.recepie-list h2{
+		max-width: 125px;
+	}
+	.recepie-list p{
+		max-width: 125px;
+	}
+}
+@media only screen and (max-width: 640px){
+	.recepie-list h2{
+		max-width: 190px;
+	}
+	.recepie-list p{
+		max-width: 190px;
+	}
+}
+/*--12 june trello issue--*/
+@media (max-width:1199.98px) {
+	.header-navbar .navbar-container ul.nav li a.dropdown-user-link {
+		padding: .8rem 0rem !important;
+	}
+}
